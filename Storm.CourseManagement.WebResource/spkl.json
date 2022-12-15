@@ -1,0 +1,101 @@
+{
+  "webresources": [
+    {
+      "profile": "default,debug",
+      "root": "",
+      "solution": "CourseManagement",
+      "files": [
+        {
+          "uniquename": "storm_/CourseManagement/img/class-16.png",
+          "displayname": "storm_/CourseManagement/img/class-16.png",
+          "file": "storm_\\CourseManagement\\img\\class-16.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/class-32.png",
+          "displayname": "storm_/CourseManagement/img/class-32.png",
+          "file": "storm_\\CourseManagement\\img\\class-32.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/class.svg",
+          "displayname": "storm_/CourseManagement/img/class.svg",
+          "file": "storm_\\CourseManagement\\img\\class.svg"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/course-16.png",
+          "displayname": "storm_/CourseManagement/img/course-16.png",
+          "file": "storm_\\CourseManagement\\img\\course-16.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/course-32.png",
+          "displayname": "storm_/CourseManagement/img/course-32.png",
+          "file": "storm_\\CourseManagement\\img\\course-32.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/course.svg",
+          "displayname": "storm_/CourseManagement/img/course.svg",
+          "file": "storm_\\CourseManagement\\img\\course.svg"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/enrollment-16.png",
+          "displayname": "storm_/CourseManagement/img/enrollment-16.png",
+          "file": "storm_\\CourseManagement\\img\\enrollment-16.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/enrollment-32.png",
+          "displayname": "storm_/CourseManagement/img/enrollment-32.png",
+          "file": "storm_\\CourseManagement\\img\\enrollment-32.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/enrollment.svg",
+          "displayname": "storm_/CourseManagement/img/enrollment.svg",
+          "file": "storm_\\CourseManagement\\img\\enrollment.svg"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/student-16.png",
+          "displayname": "storm_/CourseManagement/img/student-16.png",
+          "file": "storm_\\CourseManagement\\img\\student-16.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/student-32.png",
+          "displayname": "storm_/CourseManagement/img/student-32.png",
+          "file": "storm_\\CourseManagement\\img\\student-32.png"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/img/student.svg",
+          "displayname": "storm_/CourseManagement/img/student.svg",
+          "file": "storm_\\CourseManagement\\img\\student.svg"
+        },
+        {
+          "uniquename": "storm_/CourseManagement/js/CourseLibrary.js",
+          "displayname": "storm_/CourseManagement/js/CourseLibrary.js",
+          "file": "storm_\\CourseManagement\\js\\CourseLibrary.js"
+        }
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "profile": "default,debug",
+      "solution_uniquename": "CourseManagement",
+      "packagepath": "package",
+      "solutionpath": "CourseManagement.zip",
+      "packagetype": "both_managed_import",
+      "increment_on_import": false,
+      "map": [
+        {
+          "map": "path",
+          "from": "WebResources\\*.*",
+          "to": "..\\Storm.CourseManagement.Webresources\\**"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\**\\*.*",
+          "to": "..\\Storm.CourseManagement.Webresources\\storm_\\**"
+        }
+      ],
+      "clobber": true,
+      "allowwrite": true,
+      "allowdelete": false
+    }
+  ]
+}

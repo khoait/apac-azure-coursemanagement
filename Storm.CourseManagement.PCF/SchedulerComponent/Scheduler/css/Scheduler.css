@@ -1,0 +1,11 @@
+td.e-header-cells {
+  text-align: left;
+}
+
+#scheduler_dialog_wrapper {
+  z-index: 1000000002 !important;
+}
+
+#js-licensing {
+  display: none !important;
+}
